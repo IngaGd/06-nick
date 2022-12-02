@@ -1,0 +1,21 @@
+{
+  "name": "06-nick",
+  "version": "1.0.0",
+  "description": "webpage design with clock and form",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dead-server --host=localhost --port=1106",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "images",
+    "favicon"
+  ],
+  "author": "Inga",
+  "license": "ISC",
+  "devDependencies": {
+    "dead-server": "^1.0.9"
+  }
+}
