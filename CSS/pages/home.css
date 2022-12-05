@@ -1,0 +1,11 @@
+.logo {
+    height: 80px;
+}
+
+.clock {
+    height: 60px;
+}
+
+.row-top > .description {
+    font-size: 15px;
+}
