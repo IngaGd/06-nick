@@ -4,8 +4,8 @@
     padding-bottom: 50px;
 }
 
-.container > .row,
-.container > .row-top {
+.container > .row {
+    display: flex;
     width: 1200px;
     margin-left: calc(50% - 600px);
     background-color: pink;
@@ -23,10 +23,24 @@
     background-color: yellow;
 }
 
+.container > .main {
+    flex-direction: column;
+}
+
+.main > .text {
+    text-align: center;
+}
+
+.container > .main> .links {
+}
+
+
+
+
 /*
 .container > .row-top {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;s
     width: 70%;
 }*/
 
