@@ -1,0 +1,26 @@
+.container > .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    color: white;
+}
+
+
+.logo {
+    height: 80px;
+}
+
+.clock {
+    height: 60px;
+}
+
+.row-top > .description {
+    font-size: 18px;
+}
+
+.image > img {
+    height: 300px;
+}
+
+

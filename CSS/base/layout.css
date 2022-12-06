@@ -1,0 +1,127 @@
+
+.container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container > .row {
+    display: flex;
+    width: 1200px;
+    margin-left: calc(50% - 600px);
+}
+
+.container > .short-row {
+    width: 800px;
+    margin-left: calc(50% - 400px);
+}
+
+.container > .shortest-row {
+    width: 500px;
+    margin-left: calc(50% - 250px);
+    color: white;
+}
+
+.container > .main {
+    flex-direction: column;
+}
+
+.main > .text {
+    text-align: center;
+}
+
+.container > .row > .links {
+    width: var(-width-row);
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.link {
+    width: calc((1200px - (6 * 15px))/ 3);
+    height: calc((1200px - (6 * 15px))/ 3);
+    margin: 15px;
+    border: 2px solid #E7E7E7;
+    background-color: #F8F8FB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container > .about {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about > .text {
+    width: 50%;
+}
+
+.about > .image {
+    width: 50%;
+}
+
+
+@media (max-width: 1300px) {
+    .container > .row {
+        width: 1000px;
+        margin-left: calc(50% - 500px);
+        background-color: red;
+    }
+}
+
+@media (max-width: 1100px) {
+    .container > .row {
+        width: 900px;
+        margin-left: calc(50% - 450px);
+        background-color: burlywood;
+    }
+}
+
+@media (max-width: 900px) {
+    .container > .row {
+        width: 700px;
+        margin-left: calc(50% - 350px);
+        background-color: burlywood;
+    }
+    .container > .short-row {
+        width: 700px;
+        margin-left: calc(50% - 350px);
+        background-color: burlywood;
+    }
+}
+
+@media (max-width: 750px) {
+    .container > .row {
+        width: 500px;
+        margin-left: calc(50% - 250px);
+        background-color: burlywood;
+    }
+    .container > .short-row {
+        width: 500px;
+        margin-left: calc(50% - 250px);
+        background-color: burlywood;
+    }
+}
+
+@media (max-width: 550px) {
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .container > .row,
+    .container > .short-row,
+    .container > .shortest-row {
+        width: 100%;
+        margin-left: 0;
+        background-color: chartreuse;
+    }
+    .link {
+        width: 80%;
+        height: 80%;
+    }
+}
