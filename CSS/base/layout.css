@@ -1,3 +1,4 @@
+
 .container {
     width: 100%;
     padding-top: 50px;
@@ -8,19 +9,17 @@
     display: flex;
     width: 1200px;
     margin-left: calc(50% - 600px);
-    background-color: pink;
 }
 
 .container > .short-row {
     width: 800px;
     margin-left: calc(50% - 400px);
-    background-color: aqua;
 }
 
 .container > .shortest-row {
     width: 500px;
     margin-left: calc(50% - 250px);
-    background-color: yellow;
+    color: white;
 }
 
 .container > .main {
@@ -31,19 +30,40 @@
     text-align: center;
 }
 
-.container > .main> .links {
+.container > .row > .links {
+    width: var(-width-row);
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
-
-
-
-/*
-.container > .row-top {
+.link {
+    width: calc((1200px - (6 * 15px))/ 3);
+    height: calc((1200px - (6 * 15px))/ 3);
+    margin: 15px;
+    border: 2px solid #E7E7E7;
+    background-color: #F8F8FB;
     display: flex;
-    flex-direction: column;s
-    width: 70%;
-}*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
+.container > .about {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about > .text {
+    width: 50%;
+}
+
+.about > .image {
+    width: 50%;
+}
 
 
 @media (max-width: 1300px) {
@@ -99,5 +119,9 @@
         width: 100%;
         margin-left: 0;
         background-color: chartreuse;
+    }
+    .link {
+        width: 80%;
+        height: 80%;
     }
 }
