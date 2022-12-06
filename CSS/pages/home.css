@@ -4,23 +4,45 @@
     align-items: flex-start;
     text-align: left;
     color: white;
+    font-size: 30px;
+    gap: 60px;
 }
 
 
 .logo {
-    height: 80px;
+    height: 120px;
 }
 
 .clock {
     height: 60px;
 }
 
-.row-top > .description {
-    font-size: 18px;
+
+h2 {
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.icon {
+    width: 130px;
+}
+
+.link > a {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #F30F21;
 }
 
 .image > img {
     height: 300px;
 }
+
+
+
+
+
 
 
