@@ -1,16 +1,25 @@
-.container > .hero {
+.container.top {
+    background-color: #F30F21;
+    background-image: url(../../img/backgrounds/backgtound-stars.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.container.bg-violet > .hero {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items:flex-start;
     text-align: left;
     color: white;
     font-size: 30px;
-    gap: 60px;
+    gap: 200px;
 }
 
 
 .logo {
-    height: 120px;
+    height: 150px;
 }
 
 .clock {

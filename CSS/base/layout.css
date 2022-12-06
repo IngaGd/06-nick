@@ -75,7 +75,6 @@
     .container > .row {
         width: 1000px;
         margin-left: calc(50% - 500px);
-        background-color: red;
     }
 }
 
@@ -83,7 +82,6 @@
     .container > .row {
         width: 900px;
         margin-left: calc(50% - 450px);
-        background-color: burlywood;
     }
 }
 
@@ -91,12 +89,10 @@
     .container > .row {
         width: 700px;
         margin-left: calc(50% - 350px);
-        background-color: burlywood;
     }
     .container > .short-row {
         width: 700px;
         margin-left: calc(50% - 350px);
-        background-color: burlywood;
     }
 }
 
@@ -104,12 +100,10 @@
     .container > .row {
         width: 500px;
         margin-left: calc(50% - 250px);
-        background-color: burlywood;
     }
     .container > .short-row {
         width: 500px;
         margin-left: calc(50% - 250px);
-        background-color: burlywood;
     }
 }
 
@@ -123,7 +117,6 @@
     .container > .shortest-row {
         width: 100%;
         margin-left: 0;
-        background-color: chartreuse;
     }
     .link {
         width: 80%;
