@@ -48,7 +48,7 @@ h2 {
     height: 300px;
 }
 
-.container > .back-to-top {
+#back-to-top {
     background-color: #F30F21;
     width: 60px;
     height: 60px;
