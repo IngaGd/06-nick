@@ -56,6 +56,11 @@ h2 {
     color: white;
 }
 
+@media (max-width: 1250px) {
+    .container.top {
+        background-image: url(../../img/backgrounds/backgtound-stars-without-rocket.png);
+    }
+}
 
 
 
