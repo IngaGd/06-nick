@@ -48,6 +48,22 @@ h2 {
     height: 300px;
 }
 
+.socials > a {
+    color: #F30F21;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+
+.socials > a:hover {
+    color: #32075A;
+    background-color: #F30F21;
+    box-shadow: 0 10px 5px #0003;
+}
+
+
 #back-to-top {
     background-color: #F30F21;
     width: 60px;
