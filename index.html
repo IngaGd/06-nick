@@ -21,6 +21,8 @@
     <!-- 3rd-party -->
     <link rel="stylesheet" href="./CSS/3rd-party/font-awesome.min.css">
     <!-- components -->
+    <link rel="stylesheet" href="./CSS/components/form.css">
+    <link rel="stylesheet" href="./CSS/components/button.css">
     <!-- pages -->
     <link rel="stylesheet" href="./CSS/pages/home.css">
 
@@ -115,9 +117,23 @@
                 </h2>
                 <p class="desciption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quas similique odio exercitationem aut commodi quos adipisci...</p>
             </div>
-            <div>
-                CONTACT US FORM
-            </div>
+            <form action="/">
+                <div class="cell-1">
+                    <label for="name">Full name</label>
+                    <input id="name" type="text" required placeholder="Full Name">
+                </div>
+                <div class="cell-1">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" required placeholder="Email">
+                </div>
+                <div class="cell-1">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                </div>
+                <div class="cell-1">
+                    <button class="btn">Send</button>
+                </div>
+            </form>
             <div class="socials">
                 <i class="fa fa-twitter"></i>
             </div>
