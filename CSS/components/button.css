@@ -2,6 +2,7 @@
     background-color: var(--main-color);
     color: #fff;
     width: auto;
+    display:inline-block;
     padding: 0.7em;
     padding-left: 1.4em;
     padding-right: 1.4em;
