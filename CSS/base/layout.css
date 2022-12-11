@@ -12,8 +12,12 @@
 }
 
 .container > .short-row {
-    width: 800px;
-    margin-left: calc(50% - 400px);
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin-left: calc(50% - 350px);
+    gap: 60px;
+    text-align: center;
 }
 
 .container > .shortest-row {
@@ -70,6 +74,19 @@
     width: 50%;
 }
 
+/*
+.short-row > .text {
+    display: flex;
+    width: 20%;
+}
+
+.short-row > form {
+    width: 60%;
+}
+
+.short-row > .socials {
+    width: 20%;
+}*/
 
 @media (max-width: 1300px) {
     .container > .row {
