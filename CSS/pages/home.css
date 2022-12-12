@@ -63,6 +63,42 @@ h2 {
     box-shadow: 0 10px 5px #0003;
 }
 
+.shortest-row{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.shortest-row > .text {
+    display: flex;
+    gap: 0 20px;
+    color: #fff8; /*8 - transparency*/
+}
+
+.shortest-row > .text > p {
+    position: relative;
+}
+
+.shortest-row > .text > p + p::before {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 16px;
+    background-color: #fff8;
+    position: absolute;
+    top: 4px;
+    left: -11px;
+
+}
+
+.shortest-row > .text a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
 
 #back-to-top {
     background-color: #F30F21;
@@ -70,6 +106,12 @@ h2 {
     height: 60px;
     border-radius: 50px;
     color: white;
+}
+
+@media (max-width: 550px) {
+    .shortest-row > .text {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 1250px) {
